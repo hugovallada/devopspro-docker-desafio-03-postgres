@@ -25,3 +25,5 @@ services:
       PGADMIN_DEFAULT_PASSWORD: root
     networks:
       - postgres
+    depends_on:
+      - postgres
